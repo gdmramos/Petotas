@@ -82,7 +82,7 @@ button.perfilAnimal {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-size: 1rem;
+  font-size: 4.27vw;
   font-family: Arial;
 }
 header {
@@ -134,6 +134,8 @@ header a {
   border-radius: 10px;
   margin-top: 5vw;
   margin-bottom: 5vw;
+  border: none;
+  box-shadow: 1px 1px 2px #808080;
 }
 .principal .container p {
   color: #fff;
