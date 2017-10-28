@@ -12,7 +12,7 @@ gulp.task('browser-sync',function() {
     });
 
     gulp.watch("./stylus/*.styl",['stylus']);
-    gulp.watch('./css/style.css').on("change", reload);
+    gulp.watch('./css/template.css').on("change", reload);
     gulp.watch("./js/*.js").on("change", reload);
     gulp.watch("./index.html").on("change", reload);
 });
