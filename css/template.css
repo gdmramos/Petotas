@@ -78,12 +78,37 @@ button.perfilAnimal {
   border: none;
   box-shadow: 1px 1px 2px #808080;
 }
+.loginContainer {
+  padding-top: 80px;
+}
+h1.login {
+  font-size: 30px;
+  color: #ff6f00;
+  text-align: center;
+}
+img.loginbtn {
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 20px;
+}
+.signupContainer {
+  margin-top: 40px;
+}
+.signupContainer p {
+  text-align: center;
+}
+.signupContainer h1 {
+  margin-top: 10px;
+  text-align: center;
+  font-size: 30px;
+  color: #ff6f00;
+}
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-size: 4.27vw;
-  font-family: Arial;
+  font-family: "Roboto", 'sans-serif';
 }
 header {
   width: 100%;
