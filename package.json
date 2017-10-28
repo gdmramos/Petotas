@@ -1,0 +1,31 @@
+{
+  "name": "petotas",
+  "version": "1.0.0",
+  "description": "Site de adoção de bixos mais legal de Satolep",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gdmramos/Petotas.git"
+  },
+  "keywords": [
+    "adoção",
+    "bixos",
+    "pelotas",
+    "petotas"
+  ],
+  "author": "Anderson, Gabriel, Matheus, Vitos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gdmramos/Petotas/issues"
+  },
+  "homepage": "https://github.com/gdmramos/Petotas#readme",
+  "devDependencies": {
+    "browser-sync": "^2.18.13",
+    "gulp": "^3.9.1",
+    "gulp-stylus": "^2.6.0",
+    "rupture": "^0.6.2"
+  }
+}
