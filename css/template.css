@@ -1,5 +1,4 @@
 * {
-<<<<<<< HEAD
   box-sizing: border-box;
   font-family: 'Roboto', 'sans-serif';
   color: #808080;
@@ -10,6 +9,7 @@
   grid-template-columns: 100%;
   grid-template-rows: auto;
   padding: 20px;
+  padding-top: 90px;
 }
 .cadastroAnimalFoto {
   grid-column: 1;
@@ -33,6 +33,7 @@
 }
 .cadastroAnimalInformacoes .grid-1 p {
   font-size: 17px;
+  margin: 15px;
 }
 .cadastroAnimalInformacoes .grid-1 b {
   color: #424242;
@@ -46,6 +47,7 @@
 }
 .cadastroAnimalInformacoes .grid-2 p {
   font-size: 17px;
+  margin: 15px;
 }
 .cadastroAnimalInformacoes .grid-2 b {
   color: #424242;
@@ -63,7 +65,20 @@
   font-size: 17px;
   text-align: justify;
   margin-top: 5px;
-=======
+}
+button.perfilAnimal {
+  background-color: #ff6f00;
+  width: 50%;
+  margin-left: 25%;
+  height: 50px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 10px;
+  border: none;
+  box-shadow: 1px 1px 2px #808080;
+}
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -138,5 +153,4 @@ footer {
   justify-items: center;
   z-index: 1;
   color: #fff;
->>>>>>> 05b970695ca40b99d665b0793fea25b18936db68
 }
