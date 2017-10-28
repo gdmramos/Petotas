@@ -1,5 +1,4 @@
 * {
-<<<<<<< HEAD
   box-sizing: border-box;
   font-family: 'Roboto', 'sans-serif';
   color: #808080;
@@ -63,11 +62,12 @@
   font-size: 17px;
   text-align: justify;
   margin-top: 5px;
-=======
+}
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-size: 1rem;
+  font-size: 4.27vw;
   font-family: Arial;
 }
 header {
@@ -119,6 +119,8 @@ header a {
   border-radius: 10px;
   margin-top: 5vw;
   margin-bottom: 5vw;
+  border: none;
+  box-shadow: 1px 1px 2px #808080;
 }
 .principal .container p {
   color: #fff;
@@ -138,5 +140,4 @@ footer {
   justify-items: center;
   z-index: 1;
   color: #fff;
->>>>>>> 05b970695ca40b99d665b0793fea25b18936db68
 }
