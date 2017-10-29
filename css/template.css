@@ -95,6 +95,110 @@
 .container-filtro .selected {
   background-color: #ffe082;
 }
+.loginContainer {
+  padding-top: 80px;
+}
+h1.login {
+  font-size: 30px;
+  color: #ff6f00;
+  text-align: center;
+}
+img.loginbtn {
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 20px;
+}
+.signupContainer {
+  margin-top: 40px;
+}
+.signupContainer p {
+  text-align: center;
+}
+.signupContainer h1 {
+  margin-top: 10px;
+  text-align: center;
+  font-size: 30px;
+  color: #ff6f00;
+}
+.cadastrarAnimalContainer {
+  margin-top: 80px;
+}
+.cadastrarAnimalContainer a {
+  width: 70%;
+  display: block;
+  margin-left: 15%;
+  background-color: #ff6f00;
+  padding: 10px;
+  text-align: center;
+  color: #fff;
+  font-size: 18px;
+}
+.cadastrarAnimalContainer p {
+  text-align: center;
+  margin-top: 10px;
+  color: #777;
+}
+.especie-wrapper,
+.sexo-wrapper,
+.porte-wrapper,
+.castrado-wrapper,
+.vacinado-wrapper {
+  margin-top: 30px;
+  border: #ff6f00 3px solid;
+  width: 80%;
+  margin-left: 10%;
+}
+.especie,
+.sexo,
+.porte,
+.castrado,
+.vacinado {
+  display: inline-block;
+  width: 49%;
+  padding: 5px;
+  text-align: center;
+  margin-left: 0px;
+  color: #888;
+}
+.especie.active,
+.sexo.active,
+.castrado.active,
+.vacinado.active {
+  background: #ff6f00;
+  color: #fff;
+  width: 49.5%;
+}
+.porte {
+  width: 32%;
+}
+.porte.active {
+  width: 32%;
+  background: #ff6f00;
+  color: #fff;
+}
+.necessidades-wrapper p {
+  font-size: 15px;
+  color: #555;
+}
+.necessidades-wrapper textarea {
+  border: 3px #ff6f00 solid;
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 10px;
+}
+.cor-wrapper p {
+  font-size: 15px;
+  color: #555;
+}
+.cor-wrapper textarea {
+  border: 3px #ff6f00 solid;
+  width: 80%;
+  margin-left: 10%;
+}
+.submeter {
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
 @font-face {
   font-family: 'Roboto';
   src: url("../fonts/Roboto-Regular.ttf");
@@ -152,5 +256,36 @@ header a {
 .principal .container h3 {
   color: #fff;
   margin-bottom: 5vw;
+  font-weight: bold;
+}
+.principal .container a.adotarBtn {
+  display: block;
+  width: 80%;
+  height: 60px;
+  margin-left: 10%;
+  padding: 16px 20px;
+  margin-top: 20px;
+  color: #ff6f00;
+  background: #fff;
+  text-decoration: none;
+  font-size: 1.5rem;
+  border: none;
+  border-radius: 50px;
+  box-shadow: 1px 1px 2px #808080;
+  font-weight: bold;
+}
+.principal .container a.cadastrarBtn {
+  display: block;
+  width: 80%;
+  margin-left: 10%;
+  padding: 10px 20px;
+  margin-top: 20px;
+  color: #ff6f00;
+  background: #fff;
+  text-decoration: none;
+  font-size: 1.5rem;
+  border: none;
+  border-radius: 50px;
+  box-shadow: 1px 1px 2px #808080;
   font-weight: bold;
 }
