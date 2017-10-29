@@ -73,7 +73,6 @@ button.perfilAnimal {
   border: none;
   box-shadow: 1px 1px 2px #808080;
 }
-<<<<<<< HEAD
 .header-filtro {
   grid-template-columns: 45% 55%;
 }
@@ -120,7 +119,7 @@ button.perfilAnimal {
   border-radius: 50%;
   position: relative;
   box-shadow: 1px 1px 1px #888;
-=======
+}
 .loginContainer {
   padding-top: 80px;
 }
@@ -149,7 +148,6 @@ img.loginbtn {
 @font-face {
   font-family: 'Roboto';
   src: url("../fonts/Roboto-Regular.ttf");
->>>>>>> 5c3b591558460ce48fdf14f9252726b26f27c1ef
 }
 * {
   margin: 0;
@@ -204,38 +202,14 @@ header a {
   color: #fff;
   margin-bottom: 5vw;
 }
-.principal .container button {
-  width: 70vw;
-  height: 20vw;
+.principal .container .button {
+  padding: 10px 15px;
   color: #ff6f00;
   background: #fff;
+  text-decoration: none;
   font-size: 1.5rem;
-  border-radius: 10px;
-  margin-top: 5vw;
-  margin-bottom: 5vw;
   border: none;
   border-radius: 50px;
   box-shadow: 1px 1px 2px #808080;
   font-weight: bold;
-}
-.principal .container p {
-  color: #fff;
-}
-.principal .container a {
-  text-decoration: none;
-  color: #ff6f00;
-}
-footer {
-  width: 100%;
-  height: 15vw;
-  background-color: rgba(255,255,255,0.4);
-  display: grid;
-  align-items: center;
-  justify-items: center;
-  z-index: 1;
-  color: #fff;
-}
-footer .indexfooter {
-  position: absolute;
-  bottom: 0;
 }
