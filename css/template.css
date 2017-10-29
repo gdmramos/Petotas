@@ -250,6 +250,18 @@ img.loginbtn {
   font-weight: bolder;
   color: #555;
 }
+.dashboardContainer a {
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 20px;
+  background-color: #ff6f00;
+  color: #fff;
+  display: block;
+  text-align: center;
+  padding: 10px 15px;
+  font-size: 20px;
+  text-decoration: none;
+}
 @font-face {
   font-family: 'Roboto';
   src: url("../fonts/Roboto-Regular.ttf");
