@@ -224,6 +224,32 @@ img.loginbtn {
   margin-top: 20px;
   margin-bottom: 50px;
 }
+.dashboardContainer {
+  margin-top: 80px;
+}
+.dashboardContainer h1 {
+  font-size: 20px;
+  text-align: center;
+  color: #ff6f00;
+  margin-top: 20px;
+}
+.dashboardContainer table {
+  margin-top: 10px;
+  border-collapse: collapse;
+  font-weight: bold;
+  width: 100%;
+}
+.dashboardContainer .cabecalho {
+  background: #aaa;
+}
+.dashboardContainer td {
+  text-align: center;
+  padding: 10px;
+  margin: 0;
+  background-color: #ccc;
+  font-weight: bolder;
+  color: #555;
+}
 @font-face {
   font-family: 'Roboto';
   src: url("../fonts/Roboto-Regular.ttf");
