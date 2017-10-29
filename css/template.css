@@ -135,11 +135,16 @@ header a {
   width: 100vw;
   height: 100vh;
   text-align: center;
-  background: #acbabc;
   z-index: 0;
+  background-image: url("../img/fundoMain.jpeg");
+  background-attachment: fixed;
+  background-size: auto 100%;
+  background-position-x: -150px;
 }
 .principal .container {
   width: 100vw;
+  height: 100vh;
+  background-color: rgba(5,5,5,0.7);
   padding-top: 50vw;
 }
 .principal .container h2 {
@@ -155,12 +160,15 @@ header a {
   width: 70vw;
   height: 20vw;
   color: #ff6f00;
+  background: #fff;
   font-size: 1.5rem;
   border-radius: 10px;
   margin-top: 5vw;
   margin-bottom: 5vw;
   border: none;
+  border-radius: 50px;
   box-shadow: 1px 1px 2px #808080;
+  font-weight: bold;
 }
 .principal .container p {
   color: #fff;
