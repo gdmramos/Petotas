@@ -103,6 +103,10 @@ img.loginbtn {
   font-size: 30px;
   color: #ff6f00;
 }
+@font-face {
+  font-family: 'Roboto';
+  src: url("../fonts/Roboto-Regular.ttf");
+}
 * {
   margin: 0;
   padding: 0;
