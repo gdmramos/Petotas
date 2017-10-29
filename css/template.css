@@ -73,6 +73,7 @@ button.perfilAnimal {
   border: none;
   box-shadow: 1px 1px 2px #808080;
 }
+<<<<<<< HEAD
 .header-filtro {
   grid-template-columns: 45% 55%;
 }
@@ -119,13 +120,43 @@ button.perfilAnimal {
   border-radius: 50%;
   position: relative;
   box-shadow: 1px 1px 1px #888;
+=======
+.loginContainer {
+  padding-top: 80px;
+}
+h1.login {
+  font-size: 30px;
+  color: #ff6f00;
+  text-align: center;
+}
+img.loginbtn {
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 20px;
+}
+.signupContainer {
+  margin-top: 40px;
+}
+.signupContainer p {
+  text-align: center;
+}
+.signupContainer h1 {
+  margin-top: 10px;
+  text-align: center;
+  font-size: 30px;
+  color: #ff6f00;
+}
+@font-face {
+  font-family: 'Roboto';
+  src: url("../fonts/Roboto-Regular.ttf");
+>>>>>>> 5c3b591558460ce48fdf14f9252726b26f27c1ef
 }
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-size: 4.27vw;
-  font-family: Arial;
+  font-family: "Roboto", 'sans-serif';
 }
 header {
   width: 100%;
@@ -152,11 +183,16 @@ header a {
   width: 100vw;
   height: 100vh;
   text-align: center;
-  background: #acbabc;
   z-index: 0;
+  background-image: url("../img/fundoMain.jpeg");
+  background-attachment: fixed;
+  background-size: auto 100%;
+  background-position-x: -150px;
 }
 .principal .container {
   width: 100vw;
+  height: 100vh;
+  background-color: rgba(5,5,5,0.7);
   padding-top: 50vw;
 }
 .principal .container h2 {
@@ -172,12 +208,15 @@ header a {
   width: 70vw;
   height: 20vw;
   color: #ff6f00;
+  background: #fff;
   font-size: 1.5rem;
   border-radius: 10px;
   margin-top: 5vw;
   margin-bottom: 5vw;
   border: none;
+  border-radius: 50px;
   box-shadow: 1px 1px 2px #808080;
+  font-weight: bold;
 }
 .principal .container p {
   color: #fff;
